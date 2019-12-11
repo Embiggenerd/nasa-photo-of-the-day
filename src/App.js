@@ -24,7 +24,7 @@ function App() {
 
   useEffect(() => { 
     // Update the document title using the browser API
-    const str = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2012-03-14'
+    const str = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY'
     axios.get(str)
       .then(req => {
         const networkLatency = Date.now() - timeMounted // Here we get how much time the api call took
