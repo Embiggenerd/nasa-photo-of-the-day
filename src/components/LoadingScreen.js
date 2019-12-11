@@ -3,7 +3,7 @@ import React from "react";
 function LoadingScreen() {
 
     return (
-        <div className="LoadingScreen">
+        <div className="loading-screen">
             <span>
                 Loading
             </span>
