@@ -33,7 +33,7 @@
 }
 
 .loading-screen {
-  position: absolute;
+  /* position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,23 +41,16 @@
   height: 100%;
   font-size: 2rem;
   background: #ff7b00;
-  color: white;
+  color: white; */
 }
 
-.planet-info {
-  background: #ff7b00;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-}
 
-img {
+
+/* img {
   width: 500px;
   height: 500px;
-}
+} */
 
-.explanation {
-  width: 500px;
-}
+/* .explanation { */
+  /* width: 500px;
+/* } */ 
