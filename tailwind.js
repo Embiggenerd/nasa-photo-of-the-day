@@ -3,6 +3,11 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    extend: {
+      colors: {
+        'myOrange': '#ff7b00',
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',
