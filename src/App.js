@@ -3,7 +3,7 @@ import axios from 'axios'
 
 import LoadingScreen from "./components/LoadingScreen"
 import PlanetInfo from "./components/PlanetInfo"
-import "./App.css";
+// import "./App.c/ss";
 
 
 function App() {

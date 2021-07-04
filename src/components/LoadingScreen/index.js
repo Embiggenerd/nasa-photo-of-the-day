@@ -1,13 +1,14 @@
 import React from "react";
+import { LoadingScreenContainer } from './styles'
 
 function LoadingScreen() {
 
     return (
-        <div className="loading-screen">
+        <LoadingScreenContainer>
             <span>
                 Loading
             </span>
-        </div>
+        </LoadingScreenContainer>
     );
 }
 
